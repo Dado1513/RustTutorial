@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 use std::io;
 use rand::Rng; // --> the RNG trait defines methods that random number generators implement, and this trait must be in scope for us to use those methods
 use std::cmp::Ordering;
